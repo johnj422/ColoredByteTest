@@ -1,0 +1,196 @@
+body {
+    font-family: 'Inter';
+}
+
+p {
+    margin: 0;
+}
+
+#content {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#box {
+    width: 527px;
+    height: 739px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 5px;
+    box-shadow: -1px 7px 8px -5px rgba(0, 0, 0, 0.14);
+    background-color: #FCFCFC;
+}
+
+#top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+.photo {
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.name {
+    width: 117px;
+    height: 38px;
+    margin-left: 25px;
+    margin-top: 21px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: black;
+}
+
+.name p:last-of-type {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12.1px;
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 17.55px;
+    margin-left: 25px;
+    margin-bottom: 26px;
+}
+
+.heart {
+    width: 24px;
+    height: 20.85;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.globe {
+    width: 19.99px;
+    height: 19.99;
+    margin-right: 14.01px;
+}
+
+.msg {
+    width: 20px;
+    height: 17.33;
+    margin-right: 14.01px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 477px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 22px;
+    width: 477px;
+    height: 200px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    text-align: justify;
+}
+
+.user {
+    font-weight: 600;
+}
+
+.inputBox {
+    display: flex;
+    width: 477px;
+    margin: 24px 25px;
+    border-radius: 5px;
+}
+
+input {
+    width: 90%;
+    height: 55px;
+    background-color: #F1F1F1;
+    border: none;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    background-color: #F1F1F1;
+    color: #3d8aff;
+    border: none;
+    padding-right: 15px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.52px;
+    border-radius: 0 5px 5px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 325px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
